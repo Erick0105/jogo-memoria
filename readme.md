@@ -1,0 +1,1 @@
+Esse vai ser um jogo da mémoria porém é para ser um jogo da memória feito em arduino, porém para se ter uma visão de como fazer será feito primeiro em python por conta de bibliotecas e por eu ter mais conhecimento atualmente em python do que C++

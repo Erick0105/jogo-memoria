@@ -53,7 +53,7 @@ while True:
 
 
     lista_nums = []
-    num_array_escolhidos = []
+    lista_nums_sortidos = []
 
     for x in range(qtnd_nums):
         lista_nums.append(x + 1)
@@ -63,15 +63,15 @@ while True:
 
         num_sortido = random.choice(lista_nums)
 
-        num_array_escolhidos.append(num_sortido)
-        for i in num_array_escolhidos:
+        lista_nums_sortidos.append(num_sortido)
+        for i in lista_nums_sortidos:
             contador += 1
             print(f'{contador}º número - {i}')
             time.sleep(1.5)
             limpar_terminal()
 
         valor_digitado = validar_num("Qual foi o ultimo valor que apareceu?\n=> ")
-        if valor_digitado == num_array_escolhidos[-1]:
+        if valor_digitado == lista_nums_sortidos[-1]:
             print(f"Parabéns você acertou,sua pontuação é de {contador} pontos vamos continuar")
             time.sleep(2)
             limpar_terminal()
